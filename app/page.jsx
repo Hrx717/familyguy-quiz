@@ -1,7 +1,6 @@
 import { Container } from '@/components'
 import Image from 'next/image'
 import Link from 'next/link'
-import { endpoint } from '@/utils/endpoint'
 import { getAllCharacters } from '@/lib/characters'
 
 

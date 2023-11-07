@@ -7,9 +7,6 @@ import { getRandomQuizQuestion } from '@/lib/quiz'
 
 export default async function Page() {
   const data =await getRandomQuizQuestion()
-
-    console.log("--data--")
-    console.log(data)
   return (
     <Container
       as="main"
